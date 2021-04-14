@@ -21,6 +21,10 @@ body {
     color: #fff;
 }
 
+.page-header p {
+    font-size: 16px;
+}
+
 .feature {
     color: #fff;
 }
@@ -36,4 +40,54 @@ body {
     background-repeat: no-repeat;
     line-height: 1.5rem;
     margin-top: 1rem;
+}
+
+@keyframes animateWave {
+    0% {
+        transform: scale(1,0);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.wave-container > svg {
+    display: block;
+    transform-origin: bottom;
+    animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.icon { 
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background-color: whitesmoke;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.services {
+    color: #fff;
+}
+
+.footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
