@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, serif;
+    letter-spacing: 1px;
+}
+
+
+
+.main-container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.mt-20 {
+    margin-top: 20
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.my-5 {
+    margin: 5px 0;
+}
+
+.mb-0 { 
+    margin-bottom: 0px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.my-30 {
+    margin: 30px 0;
+}
+
+.font-weight-700 { 
+    font-weight: 700;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px
+}
+.about-me {
+ margin: 40px 0;
+}
+
+.total-students-count {
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 25px;
+    margin: 0;
+}
+
+.color-73726c {
+    color: #73726c;
+}
+
+.course-container {
+    height: auto;
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.course-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.profile-image {
+    width: 30%; margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
